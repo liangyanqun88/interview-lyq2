@@ -2,6 +2,12 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
     <file url="file://$PROJECT_DIR$/interview-lyq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/interview-lyq/src/main/java/com/study/interview/springjdbc/framework/BaseDaoSupport.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/interview-lyq/src/main/java/com/study/interview/springjdbc/framework/EntityOperation.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/interview-lyq/src/main/java/com/study/interview/springjdbc/framework/JdbcClassUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/interview-lyq/src/main/java/com/study/interview/springjdbc/framework/Order.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/interview-lyq/src/main/java/com/study/interview/springjdbc/framework/QueryRule.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/interview-lyq/src/main/java/com/study/interview/springjdbc/framework/QueryRuleSqlBulider.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

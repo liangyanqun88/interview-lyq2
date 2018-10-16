@@ -3,6 +3,7 @@ package com.study.interview.springjdbc.demo.entity;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.io.Serializable;
 
 /**
  * @author liangyanqun
@@ -11,7 +12,7 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name = "t_member")
-public class Member {
+public class Member implements Serializable {
 
     @Id
     private Long id;

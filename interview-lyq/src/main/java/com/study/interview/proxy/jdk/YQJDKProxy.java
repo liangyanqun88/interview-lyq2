@@ -9,7 +9,7 @@ import java.lang.reflect.Proxy;
  * @description
  * @date 2018-10-12 9:54
  */
-public class YQJDKProxy implements InvocationHandler{
+public class YQJDKProxy implements InvocationHandler {
 
     //被代理的目标对象
     private Object target;

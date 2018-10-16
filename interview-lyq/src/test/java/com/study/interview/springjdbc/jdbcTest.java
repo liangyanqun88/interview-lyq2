@@ -9,7 +9,9 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author liangyanqun
@@ -22,6 +24,13 @@ public class jdbcTest {
     //原生的JDBC如何操作？
         try {
 
+
+            Map<String, String> aa = new HashMap<String, String>();
+            aa.put("1","aa");
+            aa.put("2","bb");
+
+            System.out.println("JSON.toJSONString(aa) = " + JSON.toJSONString(aa));
+            
 
             //被封装成了DataSource，放入到了连接池
             //目的是为了提高程序响应速度

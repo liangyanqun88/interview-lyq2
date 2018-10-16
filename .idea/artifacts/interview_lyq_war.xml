@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="interview-lyq:war">
     <output-path>$PROJECT_DIR$/interview-lyq/target</output-path>
-    <root id="archive" name="interview-lyq-0.0.1-SNAPSHOT.war">
+    <root id="archive" name="interview-lyq.war">
       <element id="artifact" artifact-name="interview-lyq:war exploded" />
     </root>
   </artifact>
